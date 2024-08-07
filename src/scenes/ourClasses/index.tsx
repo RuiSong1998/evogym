@@ -11,9 +11,8 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
-    name: "Weight Training Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Fit Pump Classes",
+    description:"",
     image: image1,
   },
   {
@@ -21,25 +20,22 @@ const classes: Array<ClassType> = [
     image: image2,
   },
   {
-    name: "Ab Core Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Abs Blast Classes",
+    description:"",
     image: image3,
   },
   {
-    name: "Adventure Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "HIIT Classes",
+    description:"",
     image: image4,
   },
   {
-    name: "Fitness Classes",
+    name: "Fit Balance Classes",
     image: image5,
   },
   {
-    name: "Training Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Deadlift Workshop",
+    description:"",
     image: image6,
   },
 ];
@@ -68,10 +64,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+            All of our gyms have 100+ classes each week included in your membership and are great for anyone looking to do fitness classes. The class timetable varies between gyms so check the individual gym pages to see which works best for you!
             </p>
           </div>
         </motion.div>

@@ -15,19 +15,18 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "All our gyms are stocked with state-of-the-art equipment including cardio, resistance, and weight machines.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100's of Diverse Classes",
+    title: "Great Selection of Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "We offer diverse classes from beginner to advanced. Book today and find a class that will keep you coming back.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
-    description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+    description:"Between our top-notch instructors and world-class equipment, you’ll find the right PT with us at Evogym."
   },
 ];
 
@@ -70,7 +69,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
 
         {/* BENEFITS */}
         <motion.div
-          className="mt-5 items-center justify-between gap-8 md:flex"
+          className="mt-5 items-center justify-stretch gap-8 md:flex"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
