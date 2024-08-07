@@ -26,7 +26,8 @@ const benefits: Array<BenefitType> = [
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
-    description:"Between our top-notch instructors and world-class equipment, you’ll find the right PT with us at Evogym."
+    description:
+      "Between our top-notch instructors and world-class equipment, you’ll find the right PT with us at Evogym.",
   },
 ];
 
@@ -69,7 +70,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
 
         {/* BENEFITS */}
         <motion.div
-          className="mt-5 items-center justify-stretch gap-8 md:flex"
+          className="justify-stretch mt-5 items-center gap-8 md:flex"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -130,18 +131,18 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                Join the fitness revolution at Evogym, where millions of happy
+                members are achieving their fitness goals and transforming their
+                lives. Our state-of-the-art facilities, expert trainers, and
+                supportive community create the perfect environment for you to
+                get fit, stay motivated, and enjoy every step of your fitness
+                journey.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Whether you're just starting out or looking to take your
+                training to the next level, we offer a wide range of classes,
+                cutting-edge equipment, and personalized programs to meet your
+                needs.
               </p>
             </motion.div>
 

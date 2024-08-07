@@ -64,7 +64,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-            All of our gyms have 100+ classes each week included in your membership and are great for anyone looking to do fitness classes. The class timetable varies between gyms so check the individual gym pages to see which works best for you!
+            All of our gyms have 100+ classes each week included in your membership and are great for anyone looking to do fitness classes. Whatever you are into we have tons of classes to help you work towards your fitness goals.
             </p>
           </div>
         </motion.div>
