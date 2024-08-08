@@ -21,13 +21,13 @@ const benefits: Array<BenefitType> = [
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "Great Selection of Classes",
     description:
-      "We offer diverse classes from beginner to advanced. Book today and find a class that will keep you coming back.",
+      "We offer 100+ classes from beginner to advanced. Book today and find a class that will keep you coming back.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Between our top-notch instructors and world-class equipment, you’ll find the right PT with us at Evogym.",
+      "With our top-notch fitness instructors and world-class equipment, you’ll find the right PT with us at Evogym.",
   },
 ];
 
